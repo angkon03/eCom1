@@ -77,13 +77,16 @@
         <div class="container-fluid main-menu-container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9">
-                        <div class="main-menu-nav py-4">
+                    <div class="col-9">
+                        <div class="mobile-menu-bars d-block d-md-none py-2">
+                            <i class="fa-solid fa-bars fa-2x text-white"></i>
+                        </div>
+                        <div class="main-menu-nav py-4 d-none d-md-block">
                             <nav>
                                 <ul class="d-flex justify-content-between m-0 p-0">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">About</a></li>
-                                    <li><a href="#">Men's wear <i class="fa-solid fa-caret-down"></i></a>
+                                    <li class="has-mega-menu"><a onclick="return false" href="#">Men's wear <i class="fa-solid fa-caret-down"></i></a>
                                         <div class="mega-menu">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -94,7 +97,7 @@
                                                         <div class="row">
                                                             <div class="col-md-6">
                                                                 <nav>
-                                                                    <ul class="g-0 p-0">
+                                                                    <ul class="p-0">
                                                                         <li><a href="#">Clothing</a></li>
                                                                         <li><a href="#">Wallets</a></li>
                                                                         <li><a href="#">Footware</a></li>
@@ -105,9 +108,9 @@
                                                                     </ul>
                                                                 </nav>
                                                             </div>
-                                                            <div class="col-md-6">
+                                                            <div class="col-md-6 g-0">
                                                                 <nav>
-                                                                    <ul class="g-0 p-0">
+                                                                    <ul class="p-0">
                                                                         <li><a href="#">Jewellery</a></li>
                                                                         <li><a href="#">Sunglasses</a></li>
                                                                         <li><a href="#">Perfumes</a></li>
@@ -124,14 +127,94 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="#">Women's wear <i class="fa-solid fa-caret-down"></i></a></li>
-                                    <li><a href="#">Kids wear <i class="fa-solid fa-caret-down"></i></a></li>
+                                    <li class="has-mega-menu"><a onclick="return false" href="#">Women's wear <i class="fa-solid fa-caret-down"></i></a>
+                                        <div class="mega-menu">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="sub-menu">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <nav>
+                                                                    <ul class="p-0">
+                                                                        <li><a href="#">Clothing</a></li>
+                                                                        <li><a href="#">Wallets</a></li>
+                                                                        <li><a href="#">Footware</a></li>
+                                                                        <li><a href="#">Watches</a></li>
+                                                                        <li><a href="#">Accessories</a></li>
+                                                                        <li><a href="#">Bags</a></li>
+                                                                        <li><a href="#">Caps and Hats</a></li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                            <div class="col-md-6 g-0">
+                                                                <nav>
+                                                                    <ul class="p-0">
+                                                                        <li><a href="#">Jewellery</a></li>
+                                                                        <li><a href="#">Sunglasses</a></li>
+                                                                        <li><a href="#">Perfumes</a></li>
+                                                                        <li><a href="#">Beauty</a></li>
+                                                                        <li><a href="#">Shirts</a></li>
+                                                                        <li><a href="#">Sunglasses</a></li>
+                                                                        <li><a href="#">Swimeware</a></li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="assets/images/menu-images/top1.jpg" alt="Elite Shoppy menu images" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="has-mega-menu"><a onclick="return false" href="#">Kids wear <i class="fa-solid fa-caret-down"></i></a>
+                                        <div class="mega-menu mega-menu-last">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="assets/images/menu-images/top3.jpg" alt="Elite Shoppy menu images" class="img-fluid">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="sub-menu">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <nav>
+                                                                    <ul class="p-0">
+                                                                        <li><a href="#">Clothing</a></li>
+                                                                        <li><a href="#">Wallets</a></li>
+                                                                        <li><a href="#">Footware</a></li>
+                                                                        <li><a href="#">Watches</a></li>
+                                                                        <li><a href="#">Accessories</a></li>
+                                                                        <li><a href="#">Bags</a></li>
+                                                                        <li><a href="#">Caps and Hats</a></li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                            <div class="col-md-6 g-0">
+                                                                <nav>
+                                                                    <ul class="p-0">
+                                                                        <li><a href="#">Jewellery</a></li>
+                                                                        <li><a href="#">Sunglasses</a></li>
+                                                                        <li><a href="#">Perfumes</a></li>
+                                                                        <li><a href="#">Beauty</a></li>
+                                                                        <li><a href="#">Shirts</a></li>
+                                                                        <li><a href="#">Sunglasses</a></li>
+                                                                        <li><a href="#">Swimeware</a></li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-3">
                         <div class="main-menu-cart">
                             <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
                         </div>
