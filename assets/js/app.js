@@ -9,3 +9,8 @@ $('.mobile-menu-bars').on('click',function(){
 $('.close-btn').on('click',function(){
     $('.main-menu-nav').slideUp();
 })
+// Banner Slider
+$('.slider').slick({
+    autoplay: true,
+    dots: true,
+});
