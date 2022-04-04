@@ -45,7 +45,7 @@ body{
 }
 .top-bar a span{
     color: white;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .top-bar a:hover span{
     color: #2FDAB8;
@@ -139,7 +139,7 @@ body{
 .mega-menu .sub-menu ul li a{
     font-size: 14px;
     color: #545454;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .mega-menu .sub-menu ul li a:hover{
     color: var(--theme-color);
@@ -167,7 +167,7 @@ body{
 
 
 
-
+/* reponsive for mobile view */
 @media screen and (max-width: 1070px) {
     .main-menu-nav ul li{
         position: unset;
@@ -235,6 +235,9 @@ body{
         box-shadow: none;
     }
     .mega-menu .sub-menu {
+        color: white;
+    }
+    .mega-menu .sub-menu ul li a{
         color: white;
     }
     .mobile-menu-bars{
