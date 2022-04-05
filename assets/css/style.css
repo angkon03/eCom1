@@ -165,8 +165,20 @@ body{
     object-position: center center;
     object-fit: cover;
 }
+.slider-section{
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
 .slick-prev{
-    left: 8% !important;
+    left: 7% !important;
     z-index: 10;
 }
 .slick-next{
@@ -230,21 +242,29 @@ body{
     color: white;
     text-shadow: 0px 0px 10px black;
     margin-top: 1em;
-}
-.slider-section{
     position: relative;
-}
-.overlay{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.2);
-    z-index: 5;
-}
-.slider-content button:hover{
 
+}
+.slider-content button::after{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--theme-color);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.2s ease;
+    
+}
+.slider-content button:hover::after{
+    position: absolute;
+    content: '';
+    border: 2px solid var(--theme-color);
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    
 }
 /* banner slider end */
 
