@@ -3,14 +3,19 @@ $('.has-mega-menu').on('click', function(){
     $(this).siblings('.has-mega-menu').children('.mega-menu').slideUp(100);
 });
 
-$('.mobile-menu-bars').on('click',function(){
+$('.mobile-menu-bars>i').on('click',function(){
     $('.main-menu-nav').slideToggle();
 })
-$('.close-btn').on('click',function(){
+$('.close-btn>i').on('click',function(){
     $('.main-menu-nav').slideUp();
 })
 // Banner Slider
 $('.slider').slick({
     autoplay: true,
     dots: true,
+});
+// counter
+$('.counter').counterUp({
+    delay: 10,
+    time: 500
 });
