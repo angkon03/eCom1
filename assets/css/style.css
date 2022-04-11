@@ -122,7 +122,7 @@ body{
 .mega-menu{
     position: absolute;
     width: 600px;
-    box-shadow: 0px 5px 5px silver;
+    box-shadow: 0px 2px 5px silver;
     background-color: white;
     top: 48px;
     left: 50%;
@@ -246,7 +246,6 @@ body{
     text-shadow: 0px 0px 10px black;
     margin-top: 1em;
     position: relative;
-
 }
 .slider-content button::after{
     content: '';
@@ -393,6 +392,21 @@ body{
     font-weight: 600;
 }
 /* mid about section end */
+/* trending section start */
+.trend-heading h1{
+    font-weight: 200;
+}
+.trend-heading h1 span{
+    font-weight: 700;
+}
+.trending-img-container{
+    width: 97%;
+    height: 302px;
+}
+.trending-img-container img{
+    height: 100%;
+}
+/* trending section end */
 
 
 
@@ -511,6 +525,15 @@ body{
     }
     .about-section-counter h5{
         font-size: 16px;
+    }
+    .trending-img-responsive{
+        height: 300px;
+        width: 97%;
+        margin-bottom: 10px;
+    }
+    .trending-img-responsive img{
+        margin: 0 auto;
+        width: 108%;
     }
 }
 
