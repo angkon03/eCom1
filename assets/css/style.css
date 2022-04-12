@@ -407,6 +407,123 @@ body{
     height: 100%;
 }
 /* trending section end */
+/* offer area start */
+.offer-container{
+    position: relative;
+}
+.offer-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.offer-content h2{
+    width: fit-content;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 200;
+}
+.offer-content h2 span{
+    font-weight: 700;
+    color: var(--theme-color);
+}
+/* offer area end */
+/* new arrival section start */
+.new-arrival-menu ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.new-arrival-menu li{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+.new-arrival-menu li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+}
+.new-arrival-menu li a:hover{
+    background-color: #FC636B;
+}
+.new-arrival-menu li a:hover::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #FC636B;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.new-items {
+    box-shadow: 0 0 15px #d6d6d6;
+    margin-bottom: 50px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+.new-items img{
+    width: 100%;
+}
+.new-items-content h4{
+    font-size: 15px;
+    font-weight: 700;
+    color: #fc636b;
+}
+.new-items-content button{
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    background-color: var(--theme-color);
+    border: 0;
+    color: white;
+    margin-top: 1em;
+    position: relative;
+}
+.new-items-content button::after{
+    content: '';
+    position: absolute;
+    border: 4px solid var(--theme-color);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.2s ease;
+    
+}
+.new-items-content button:hover::after{
+    position: absolute;
+    content: '';
+    border: 4px solid var(--theme-color);
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+}
+.new-items .item-type{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fc636b;
+    font-size: 14px;
+    color: white;
+    padding: 2px 10px;
+}
+.new-items-content del{
+    color: gray;
+    margin-left: 10px;
+}
+/* new arrival section end */
 
 
 
